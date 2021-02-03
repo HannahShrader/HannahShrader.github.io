@@ -72,6 +72,9 @@ max-width: 800px;
   /* border: 1px solid black; */
   float: left;
   width: 35%;
+  padding: 0;
+  margin: 0;
+  border: 2px solid #401b70;
 }
 
 .intro {
