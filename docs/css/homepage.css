@@ -1,0 +1,85 @@
+body {
+  margin: 100px 0 0 0;
+  background: #96989f;
+  font-family: verdana, tahoma, "Trebuchet MS", helvetica, sans-serif;
+}
+
+title {
+
+}
+
+h1, h2, h3, h4 {
+font-family: georgia, serif;
+}
+
+h1.title {
+text-align: center;
+background-color: #8743bb;
+color: white;
+padding: 25px 0;
+margin: 0 0;
+position: fixed;
+top: 0;
+width: 100%;
+
+}
+
+h2 {
+  color: purple;
+  margin-top: 0;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 18px;
+  border: 2px solid purple;
+  padding: 20px;
+}
+
+/* .first{
+  background-color: #7d2626;
+  border: 0;
+  color: white;
+  font-size: 1.2em;
+  line-height: 1.1;
+} */
+
+ul {
+}
+
+.everything {
+/* border: 2px solid purple; */
+width: 100%;
+margin: 0 auto;
+max-width: 800px;
+}
+
+.cover{
+  /* border: 1px solid black; */
+  float: left;
+  width: 35%;
+}
+
+.intro {
+  border: 1px solid pink;
+  float: right;
+  width: 60%;
+}
+
+@media screen and (max-width: 800px) {
+
+.cover {
+  float: none;
+  width: auto;
+}
+
+.intro {
+  float: none;
+  width: auto;
+}
+
+}
