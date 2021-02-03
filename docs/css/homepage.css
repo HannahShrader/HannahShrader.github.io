@@ -65,7 +65,7 @@ max-width: 800px;
 }
 
 .intro {
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   float: right;
   width: 60%;
 }
