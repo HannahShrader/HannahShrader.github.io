@@ -1,0 +1,369 @@
+/* here is the stylesheet added when exporting from InDesign to HTML */
+
+* {
+ box-sizing: border-box;
+ margin:0;
+ padding:0;
+}
+
+body {
+  font-family: Georgia, Times, Garamond, serif;
+  background: #96989f;
+  margin: 0;
+}
+
+nav {
+display: block;
+/* position: fixed; */
+/* top: 0; */
+/* left: 0; */
+width: 100%;
+/* padding: 10px; */
+}
+
+section.play > div {
+  /* border: 1px solid red; */
+  /* width: 50%; */
+  /* margin: 1rem; */
+}
+
+main {
+  /* border: 1px solid green; */
+width: 85%;
+max-width: 900px;
+margin: 0 auto;
+/* padding: 2rem; */
+/* background: #96989f; */
+}
+
+audio {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 20px;
+  /* background-color: #5b5179; */
+}
+
+/* h1 a, h2 a {
+  position: relative;
+  top:-364px;
+} */
+
+img {
+  /* display: block; */
+  width: 40%;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: left;
+}
+
+div.lastimg {
+  width: 70%;
+  float: none;
+  margin-left: auto;
+}
+
+.takemeup {
+  position: fixed;
+  bottom: -.5rem;
+  right: 0;
+  font-size: 2rem;
+  background-color: #5b5179;
+  border: none;
+  width: 3rem;
+  color: white;
+  text-align: center;
+}
+
+.takemeup a {
+text-align: center;
+color: white;
+text-decoration: none;
+
+}
+
+section{
+
+}
+
+section.dramatis {
+  columns: 2;
+  column-rule-style: dotted;
+  column-rule-width: 2px;
+  column-rule-color: black;
+  column-gap: 200px;
+}
+
+section.play {
+
+
+}
+
+nav.contents {
+  /* border: 2px solid red; */
+
+}
+
+div.sceneImage {
+}
+
+p.Header1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px;
+}
+
+p.character {
+/* margin: 0 0 0 200px; */
+  font-weight: bold;
+  margin-bottom: 0;
+  margin: 0;
+  clear: both;
+}
+
+p.charactername {
+  font-weight: bold;
+  margin: 0;
+}
+
+h1.dramatishead {
+  column-span: all;
+  /* margin-bottom: 0; */
+}
+
+h1.act {
+  background-color: #5b5179;
+  color: white;
+  /* float: right; */
+  margin: 0 0;
+  width: 100%;
+  padding: 10px;
+  /* text-align: center; */
+}
+
+h2.firstscene {
+  background-color: #5b5179;
+  color: white;
+  /* float: right; */
+  margin: 0 0;
+  width: 100%;
+  padding: 10px;
+/* text-align: center; */
+}
+
+h2.scene {
+  background-color: #5b5179;
+  color: white;
+  /* float: right; */
+  width: 100%;
+  padding: 10px;
+  margin: 0 0;
+/* text-align: center; */
+}
+
+h2.location {
+  font-size: 2em;
+  border: 2px solid black;
+  float: right;
+  width: 50%;
+  padding: 35px;
+}
+
+p.play_location {
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+  column-span: all;
+  margin: 20px;
+}
+
+p.prose {
+  margin: 0 0 0 100px;
+  clear: both;
+}
+
+p.song {
+  text-align: center;
+  margin: 0 100px;
+}
+
+p.verseline {
+  margin: 0 0 0 100px;
+  clear: both;
+  /* margin-bottom: 3px; */
+  /* text-indent: 20px; */
+}
+
+h2.stagedirection {
+  font-size: 1em;
+  text-align: right;
+  margin-left: 200px;
+  clear: both;
+  /* margin-top: 300px; */
+}
+
+span.character_role {
+  font-weight: normal;
+}
+
+span.stage_directions_inline {
+  font-weight: bold;
+  font-style: italic;
+  font-size: .8em;
+}
+
+
+nav ul {
+  list-style: none;
+  background-color: #5b5179;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* border: 1px solid red; */
+  /* justify-content: flex-start; */
+  /* position: absolute; */
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: .8rem 1rem;
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+nav ul li:hover {
+  background-color: #4a195e;
+}
+
+nav ul li {
+  /* position: relative; */
+  /* display: inline-block; */
+  flex: 1 1 auto;
+  /* border: 1px solid red; */
+}
+
+nav ul li ul li a {
+  padding: 1rem;
+  text-decoration: none;
+  display: block;
+  margin: 0 0;
+  /* text-align: center; */
+  /* margin-left: 1rem; */
+  /* padding: 1 1; */
+  /* color: red; */
+}
+
+/* SUBLIST */
+nav ul li ul {
+  display: none;
+  /* position: absolute; */
+  width: 100%;
+  /* z-index: 1; */
+}
+
+li ul li a {
+  font-size: .8rem;
+  /* padding: .3rem 1.5rem; */
+}
+
+li ul {
+  display: none;
+}
+
+nav ul li:hover ul {
+  display: flex;
+  flex-direction: column;
+}
+
+/* when the screen is wider than 700px */
+@media screen and (min-width: 700px) {
+
+  nav ul {
+    flex-direction: row;
+    justify-content: space-between;
+
+    /* justify-content: flex-end; */
+  }
+
+  nav ul li a {
+    /* padding: .3rem 0; */
+  }
+
+  nav ul li {
+    /* flex: 0 0 6rem; */
+    position: relative;
+  }
+
+  nav ul li ul {
+    /* margin: 20px; */
+    position: absolute;
+  }
+
+  li ul li a {
+    font-size: 1rem;
+    /* padding: .3rem 1.5rem; */
+  }
+
+}
+
+/* when the screen is narrower than 700px */
+@media screen and (max-width: 700px) {
+
+  /* nav ul li a {
+    text-align: left;
+  } */
+
+  section.dramatis {
+    columns: 1;
+  }
+
+  img {
+    /* width: 40%; */
+  }
+
+  h2.location {
+    font-size: 1em;
+    margin-left: 5px;
+    padding: 25px;
+  }
+
+  h2.stagedirection {
+    font-size: .8em;
+  }
+
+  p.song {
+    text-align: center;
+    margin: 0 30px;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  h2.stagedirection {
+    font-size: .8em;
+  }
+
+  main {
+    /* width: 100%; */
+  }
+  p.verseline {
+    /* margin: 0 0 0 10px; */
+  }
+  p.prose {
+    /* margin: 0 0 0 10px; */
+  }
+
+}
