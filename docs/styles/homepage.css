@@ -1,0 +1,134 @@
+body {
+  margin: 100px 0 0 0;
+  background: #96989f;
+  font-family: verdana, tahoma, "Trebuchet MS", helvetica, sans-serif;
+}
+
+title {
+
+}
+
+h1, h2, h3, h4 {
+font-family: georgia, serif;
+}
+
+h1.title {
+text-align: center;
+background-color: #5b5179;
+color: white;
+padding: 25px 0;
+margin: 0 0;
+position: fixed;
+top: 0;
+width: 100%;
+
+}
+
+h2 {
+  color: #401b70;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+a.gotoplay {
+  text-decoration: none;
+  color: #401b70;
+}
+
+a.gotoplay:hover {
+  color: white;
+
+}
+
+img {
+  width: 100%;
+}
+
+img:hover {
+  opacity: .8;
+}
+
+p {
+/* margin: 0; */
+}
+
+
+.summary {
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 2px solid #401b70;
+  padding: 0 18px;
+}
+
+/* .first{
+  background-color: #7d2626;
+  border: 0;
+  color: white;
+  font-size: 1.2em;
+  line-height: 1.1;
+} */
+
+ul {
+  /* text-align: center; */
+  margin-top: 15px;
+}
+
+.everything {
+/* border: 2px solid purple; */
+width: 100%;
+margin: 0 auto;
+max-width: 800px;
+}
+
+.cover{
+  /* border: 1px solid black; */
+  float: left;
+  width: 35%;
+  padding: 0;
+  margin: 0;
+  /* border: 2px solid #401b70; */
+}
+
+.intro {
+  /* border: 1px solid pink; */
+  float: right;
+  width: 60%;
+}
+
+@media screen and (max-width: 700px) {
+
+.summary {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+}
+
+.cover {
+  float: none;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.intro {
+  float: none;
+  width: auto;
+}
+
+h2 {
+  margin-top: 10px;
+
+}
+
+}
+
+@media screen and (max-width: 500px) {
+
+h1.title {
+  font-size: 1.4rem;
+}
+
+
+}
